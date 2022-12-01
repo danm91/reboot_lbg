@@ -1,2 +1,2 @@
 # reboot_lbg
-hackathon
+hackathon 2022
