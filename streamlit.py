@@ -75,7 +75,7 @@ username = 'azureuser'
 password = 'R3b00t123'
 
 
-cnxn = pyodbc.connect(f'DRIVER={Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+cnxn = pyodbc.connect(f'DRIVER={server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
 # select 26 rows from SQL table to insert in dataframe.
 query = "SELECT * from emissions"
